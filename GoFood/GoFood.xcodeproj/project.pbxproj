@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4763988E2691B296005A1EA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4763988D2691B296005A1EA7 /* AppDelegate.swift */; };
+		476398902691B296005A1EA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4763988F2691B296005A1EA7 /* SceneDelegate.swift */; };
+		476398922691B296005A1EA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476398912691B296005A1EA7 /* ViewController.swift */; };
+		476398952691B296005A1EA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476398932691B296005A1EA7 /* Main.storyboard */; };
+		476398972691B298005A1EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476398962691B298005A1EA7 /* Assets.xcassets */; };
+		4763989A2691B298005A1EA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476398982691B298005A1EA7 /* LaunchScreen.storyboard */; };
+		476398A92691DFC3005A1EA7 /* RestoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476398A72691DFC2005A1EA7 /* RestoTableViewCell.swift */; };
+		476398AA2691DFC3005A1EA7 /* RestoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 476398A82691DFC2005A1EA7 /* RestoTableViewCell.xib */; };
+		476398B026920C73005A1EA7 /* Resto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476398AF26920C73005A1EA7 /* Resto.swift */; };
+		476398B326922AF4005A1EA7 /* Pods_GoFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D587637AB51F1626A385B71 /* Pods_GoFood.framework */; };
+		476398B426922AF4005A1EA7 /* Pods_GoFood.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D587637AB51F1626A385B71 /* Pods_GoFood.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47712FC026A89DD400E5D7B5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47712FBF26A89DD400E5D7B5 /* SearchViewController.swift */; };
+		47712FC226A9E85200E5D7B5 /* searchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47712FC126A9E85200E5D7B5 /* searchResult.swift */; };
+		477E13AA269DF6FA008A88C7 /* DetailRestoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E13A8269DF6FA008A88C7 /* DetailRestoViewController.swift */; };
+		477E13AB269DF6FA008A88C7 /* DetailRestoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 477E13A9269DF6FA008A88C7 /* DetailRestoViewController.xib */; };
+		47C0948126A4D760001BA330 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C0947F26A4D760001BA330 /* ProfileViewController.swift */; };
+		47C0948226A4D760001BA330 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47C0948026A4D760001BA330 /* ProfileViewController.xib */; };
+		47F27E7226AB107400929A4B /* RestoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F27E7126AB107400929A4B /* RestoDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		476398B526922AF5005A1EA7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				476398B426922AF4005A1EA7 /* Pods_GoFood.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D587637AB51F1626A385B71 /* Pods_GoFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4763988A2691B296005A1EA7 /* GoFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4763988D2691B296005A1EA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4763988F2691B296005A1EA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		476398912691B296005A1EA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		476398942691B296005A1EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		476398962691B298005A1EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		476398992691B298005A1EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4763989B2691B298005A1EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476398A72691DFC2005A1EA7 /* RestoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoTableViewCell.swift; sourceTree = "<group>"; };
+		476398A82691DFC2005A1EA7 /* RestoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestoTableViewCell.xib; sourceTree = "<group>"; };
+		476398AF26920C73005A1EA7 /* Resto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resto.swift; sourceTree = "<group>"; };
+		47712FBF26A89DD400E5D7B5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		47712FC126A9E85200E5D7B5 /* searchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResult.swift; sourceTree = "<group>"; };
+		477E13A8269DF6FA008A88C7 /* DetailRestoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRestoViewController.swift; sourceTree = "<group>"; };
+		477E13A9269DF6FA008A88C7 /* DetailRestoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailRestoViewController.xib; sourceTree = "<group>"; };
+		47C0947F26A4D760001BA330 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		47C0948026A4D760001BA330 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		47F27E7126AB107400929A4B /* RestoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoDetail.swift; sourceTree = "<group>"; };
+		489C42DE065C42B2D9152CEA /* Pods-GoFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoFood.release.xcconfig"; path = "Target Support Files/Pods-GoFood/Pods-GoFood.release.xcconfig"; sourceTree = "<group>"; };
+		BCC7699E4B85591ECEBFA68B /* Pods-GoFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoFood.debug.xcconfig"; path = "Target Support Files/Pods-GoFood/Pods-GoFood.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		476398872691B296005A1EA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476398B326922AF4005A1EA7 /* Pods_GoFood.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		476398812691B296005A1EA7 = {
+			isa = PBXGroup;
+			children = (
+				4763988C2691B296005A1EA7 /* GoFood */,
+				4763988B2691B296005A1EA7 /* Products */,
+				8A45834BA4BA84C783126B45 /* Pods */,
+				DDBE211F8039076B5BF0E5F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4763988B2691B296005A1EA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4763988A2691B296005A1EA7 /* GoFood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4763988C2691B296005A1EA7 /* GoFood */ = {
+			isa = PBXGroup;
+			children = (
+				476398AE26920B61005A1EA7 /* Base */,
+				476398AD26920B53005A1EA7 /* View */,
+				476398AC26920B44005A1EA7 /* Controller */,
+				476398AB26920B35005A1EA7 /* Model */,
+				476398962691B298005A1EA7 /* Assets.xcassets */,
+				4763989B2691B298005A1EA7 /* Info.plist */,
+			);
+			path = GoFood;
+			sourceTree = "<group>";
+		};
+		476398AB26920B35005A1EA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				476398AF26920C73005A1EA7 /* Resto.swift */,
+				47712FC126A9E85200E5D7B5 /* searchResult.swift */,
+				47F27E7126AB107400929A4B /* RestoDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		476398AC26920B44005A1EA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				476398912691B296005A1EA7 /* ViewController.swift */,
+				47712FBF26A89DD400E5D7B5 /* SearchViewController.swift */,
+				47C0947F26A4D760001BA330 /* ProfileViewController.swift */,
+				476398A72691DFC2005A1EA7 /* RestoTableViewCell.swift */,
+				477E13A8269DF6FA008A88C7 /* DetailRestoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		476398AD26920B53005A1EA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				476398932691B296005A1EA7 /* Main.storyboard */,
+				476398A82691DFC2005A1EA7 /* RestoTableViewCell.xib */,
+				476398982691B298005A1EA7 /* LaunchScreen.storyboard */,
+				477E13A9269DF6FA008A88C7 /* DetailRestoViewController.xib */,
+				47C0948026A4D760001BA330 /* ProfileViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		476398AE26920B61005A1EA7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4763988D2691B296005A1EA7 /* AppDelegate.swift */,
+				4763988F2691B296005A1EA7 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8A45834BA4BA84C783126B45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7699E4B85591ECEBFA68B /* Pods-GoFood.debug.xcconfig */,
+				489C42DE065C42B2D9152CEA /* Pods-GoFood.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DDBE211F8039076B5BF0E5F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D587637AB51F1626A385B71 /* Pods_GoFood.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		476398892691B296005A1EA7 /* GoFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4763989E2691B298005A1EA7 /* Build configuration list for PBXNativeTarget "GoFood" */;
+			buildPhases = (
+				CFDC688FE042CCF579350ECE /* [CP] Check Pods Manifest.lock */,
+				476398862691B296005A1EA7 /* Sources */,
+				476398872691B296005A1EA7 /* Frameworks */,
+				476398882691B296005A1EA7 /* Resources */,
+				664BF9EE26184269C486C1D3 /* [CP] Embed Pods Frameworks */,
+				476398B526922AF5005A1EA7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoFood;
+			productName = GoFood;
+			productReference = 4763988A2691B296005A1EA7 /* GoFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		476398822691B296005A1EA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					476398892691B296005A1EA7 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 476398852691B296005A1EA7 /* Build configuration list for PBXProject "GoFood" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 476398812691B296005A1EA7;
+			productRefGroup = 4763988B2691B296005A1EA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				476398892691B296005A1EA7 /* GoFood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		476398882691B296005A1EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C0948226A4D760001BA330 /* ProfileViewController.xib in Resources */,
+				4763989A2691B298005A1EA7 /* LaunchScreen.storyboard in Resources */,
+				476398972691B298005A1EA7 /* Assets.xcassets in Resources */,
+				476398952691B296005A1EA7 /* Main.storyboard in Resources */,
+				476398AA2691DFC3005A1EA7 /* RestoTableViewCell.xib in Resources */,
+				477E13AB269DF6FA008A88C7 /* DetailRestoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		664BF9EE26184269C486C1D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoFood/Pods-GoFood-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoFood/Pods-GoFood-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoFood/Pods-GoFood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFDC688FE042CCF579350ECE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoFood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		476398862691B296005A1EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477E13AA269DF6FA008A88C7 /* DetailRestoViewController.swift in Sources */,
+				476398922691B296005A1EA7 /* ViewController.swift in Sources */,
+				47F27E7226AB107400929A4B /* RestoDetail.swift in Sources */,
+				47712FC026A89DD400E5D7B5 /* SearchViewController.swift in Sources */,
+				4763988E2691B296005A1EA7 /* AppDelegate.swift in Sources */,
+				476398B026920C73005A1EA7 /* Resto.swift in Sources */,
+				476398902691B296005A1EA7 /* SceneDelegate.swift in Sources */,
+				47C0948126A4D760001BA330 /* ProfileViewController.swift in Sources */,
+				47712FC226A9E85200E5D7B5 /* searchResult.swift in Sources */,
+				476398A92691DFC3005A1EA7 /* RestoTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		476398932691B296005A1EA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				476398942691B296005A1EA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		476398982691B298005A1EA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				476398992691B298005A1EA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4763989C2691B298005A1EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4763989D2691B298005A1EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4763989F2691B298005A1EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC7699E4B85591ECEBFA68B /* Pods-GoFood.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.GoFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		476398A02691B298005A1EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489C42DE065C42B2D9152CEA /* Pods-GoFood.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.GoFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		476398852691B296005A1EA7 /* Build configuration list for PBXProject "GoFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4763989C2691B298005A1EA7 /* Debug */,
+				4763989D2691B298005A1EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4763989E2691B298005A1EA7 /* Build configuration list for PBXNativeTarget "GoFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4763989F2691B298005A1EA7 /* Debug */,
+				476398A02691B298005A1EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 476398822691B296005A1EA7 /* Project object */;
+}

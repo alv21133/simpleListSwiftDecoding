@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell multipleTouchEnabled="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="126" translatesAutoresizingMaskIntoConstraints="NO" id="KGk-i7-Jjw" customClass="RestoTableViewCell" customModule="GoFood" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="784" height="125"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" tableViewCell="KGk-i7-Jjw" translatesAutoresizingMaskIntoConstraints="NO" id="H2p-sc-9uM" customClass="RestoTableViewCell" customModule="GoFood" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="784" height="125"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OOT-gP-PgJ">
+                        <rect key="frame" x="0.0" y="4" width="757" height="117"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" highlighted="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cya-cU-tJU">
+                                <rect key="frame" x="0.0" y="0.0" width="142" height="102"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="142" id="gCO-Qy-lVq"/>
+                                    <constraint firstAttribute="height" constant="102" id="gSA-kr-hyW"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="aMl-HS-qGv">
+                                <rect key="frame" x="150" y="0.0" width="607" height="75"/>
+                                <subviews>
+                                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfQ-dX-lyP">
+                                        <rect key="frame" x="0.0" y="0.0" width="607" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="USv-4s-7nA"/>
+                                            <constraint firstAttribute="width" constant="607" id="hcQ-8i-QqK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" oiaosidua saos d;a jsd;lkaj sd;lakj sd;lka jsd;jka s;d ja;lskd j;alksdj ;alksdj ;aksjd ;alsk dj;alskdj ;alskd j;alskd a;s d" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2TN-nn-neF">
+                                        <rect key="frame" x="0.0" y="34" width="607" height="41"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="41" id="SFl-oi-Sx6"/>
+                                            <constraint firstAttribute="width" constant="607" id="lgE-Lo-4rv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <color key="highlightedColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <viewLayoutGuide key="safeArea" id="Bia-gm-VFt"/>
+                <constraints>
+                    <constraint firstItem="OOT-gP-PgJ" firstAttribute="leading" secondItem="Bia-gm-VFt" secondAttribute="leading" id="6fU-tr-vt8"/>
+                    <constraint firstItem="Bia-gm-VFt" firstAttribute="trailing" secondItem="OOT-gP-PgJ" secondAttribute="trailing" id="HN5-T0-hy8"/>
+                    <constraint firstItem="Bia-gm-VFt" firstAttribute="bottom" secondItem="OOT-gP-PgJ" secondAttribute="bottom" constant="4" id="QDL-dq-sKo"/>
+                    <constraint firstItem="OOT-gP-PgJ" firstAttribute="top" secondItem="Bia-gm-VFt" secondAttribute="top" constant="4" id="SQX-EG-Zok"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <accessibility key="accessibilityConfiguration" identifier="RestoCell">
+                <bool key="isElement" value="YES"/>
+            </accessibility>
+            <connections>
+                <outlet property="descResto" destination="2TN-nn-neF" id="e4b-Ae-IXX"/>
+                <outlet property="nameResto" destination="RfQ-dX-lyP" id="yTS-hX-Eam"/>
+                <outlet property="photoResto" destination="cya-cU-tJU" id="z6W-EV-nWK"/>
+            </connections>
+            <point key="canvasLocation" x="-132.80000000000001" y="-79.610194902548727"/>
+        </tableViewCell>
+    </objects>
+</document>
